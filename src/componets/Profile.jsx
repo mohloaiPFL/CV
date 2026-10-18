@@ -5,7 +5,7 @@ function Profile({ personalInfo }) {
   return (
 
     <section
-      className="section"
+      className="section profile-section"
       id="home"
     >
 
@@ -58,22 +58,22 @@ function Profile({ personalInfo }) {
               maxWidth: "760px"
             }}>
 
-            {personalInfo.summary}
+            {personalInfo.Summary}
 
           </p>
 
           <div className="contact-row">
 
             <span className="skill">
-              ✉ {personalInfo.Email}
+              Email: {personalInfo.Email}
             </span>
 
             <span className="skill">
-              ☎ {personalInfo.Phone}
+              Phone: {personalInfo.Phone}
             </span>
 
             <span className="skill">
-              📍 {personalInfo.Location}
+              Location: {personalInfo.Location}
             </span>
 
           </div>

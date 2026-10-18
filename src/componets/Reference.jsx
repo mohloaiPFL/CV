@@ -9,7 +9,7 @@ function References() {
       Contact:"5674 5478"
     },
     {
-      Name:"John Doe",
+      Name:"Miss Thatohatsi",
       Role:"Manager",
       Organisation:"LETSHENG DIAMOND MINE",
       Contact:"1234 5678"
